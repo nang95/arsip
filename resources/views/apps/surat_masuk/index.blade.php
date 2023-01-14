@@ -37,13 +37,16 @@
                                     <td>Dinas Sosial Tenaga Kerja dan Transmigrasi Daerah Kabupaten Deli Serdang</td>
                                     <td>560/401.233/2023</td>
                                     <td width="25%">
-                                        <button class="btn btn-sm btn-warning" style="color: white">
+                                        <button class="btn btn-sm btn-warning" style="color: white; padding: 0px 10px 0px 10px; min-height: 30px; padding: 0px 10px 0px 10px; min-height: 30px">
                                             Edit
                                         </button>
                                         <a href="{{ route('admin.disposisi') }}">
-                                            <button class="btn btn-sm btn-info" style="color: white">Disp</button>
+                                            <button class="btn btn-sm btn-info" style="color: white; padding: 0px 10px 0px 10px; min-height: 30px; padding: 0px 10px 0px 10px; min-height: 30px">Disp</button>
                                         </a>
-                                        <button class="btn btn-sm btn-danger">
+                                        <a href="{{ route('admin.disposisi.cetak') }}">
+                                            <button class="btn btn-sm btn-warning" style="color: white; padding: 0px 10px 0px 10px; min-height: 30px; padding: 0px 10px 0px 10px; min-height: 30px">Print</button>
+                                        </a>
+                                        <button class="btn btn-sm btn-danger" style="color: white; padding: 0px 10px 0px 10px; min-height: 30px; padding: 0px 10px 0px 10px; min-height: 30px">
                                             Hapus
                                         </button>
                                     </td>
@@ -56,13 +59,16 @@
                                     <td>Musyawarah guru mata pelajaran bahasa inggris</td>
                                     <td>560/401.314/2023</td>
                                     <td width="25%">
-                                        <button class="btn btn-sm btn-warning" style="color: white">
+                                        <button class="btn btn-sm btn-warning" style="color: white; padding: 0px 10px 0px 10px; min-height: 30px">
                                             Edit
                                         </button>
                                         <a href="{{ route('admin.disposisi') }}">
-                                            <button class="btn btn-sm btn-info" style="color: white">Disp</button>
+                                            <button class="btn btn-sm btn-info" style="color: white; padding: 0px 10px 0px 10px; min-height: 30px">Disp</button>
                                         </a>
-                                        <button class="btn btn-sm btn-danger">
+                                        <a href="{{ route('admin.disposisi.cetak') }}">
+                                            <button class="btn btn-sm btn-warning" style="color: white; padding: 0px 10px 0px 10px; min-height: 30px; padding: 0px 10px 0px 10px; min-height: 30px">Print</button>
+                                        </a>
+                                        <button class="btn btn-sm btn-danger" style="color: white; padding: 0px 10px 0px 10px; min-height: 30px; padding: 0px 10px 0px 10px; min-height: 30px">
                                             Hapus
                                         </button>
                                     </td>
@@ -75,13 +81,16 @@
                                     <td>Badan Amal Zakat Nasional</td>
                                     <td>560/401.444/2023</td>
                                     <td width="25%">
-                                        <button class="btn btn-sm btn-warning" style="color: white">
+                                        <button class="btn btn-sm btn-warning" style="color: white; padding: 0px 10px 0px 10px; min-height: 30px">
                                             Edit
                                         </button>
                                         <a href="{{ route('admin.disposisi') }}">
-                                            <button class="btn btn-sm btn-info" style="color: white">Disp</button>
+                                            <button class="btn btn-sm btn-info" style="color: white; padding: 0px 10px 0px 10px; min-height: 30px">Disp</button>
                                         </a>
-                                        <button class="btn btn-sm btn-danger">
+                                        <a href="{{ route('admin.disposisi.cetak') }}">
+                                            <button class="btn btn-sm btn-warning" style="color: white; padding: 0px 10px 0px 10px; min-height: 30px; padding: 0px 10px 0px 10px; min-height: 30px">Print</button>
+                                        </a>
+                                        <button class="btn btn-sm btn-danger" style="color: white; padding: 0px 10px 0px 10px; min-height: 30px; padding: 0px 10px 0px 10px; min-height: 30px">
                                             Hapus
                                         </button>
                                     </td>

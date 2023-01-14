@@ -16,6 +16,7 @@ Route::prefix('/admin')->namespace('Admin')->name('admin.')->group(function(){
     Route::get('disposisi', 'DisposisiController@index')->name('disposisi');
     Route::get('disposisi/create', 'DisposisiController@create')->name('disposisi.create');
     Route::get('disposisi/edit', 'DisposisiController@edit')->name('disposisi.edit');
+    Route::get('disposisi/cetak', 'DisposisiController@cetak')->name('disposisi.cetak');
     
     Route::get('surat_keluar', 'SuratKeluarController@index')->name('surat_keluar');
     Route::get('surat_keluar/create', 'SuratKeluarController@create')->name('surat_keluar.create');
